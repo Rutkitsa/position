@@ -1,8 +1,8 @@
 .main-container {
     position: relative;
-    width: 870px;
-    height: 560px;
-    margin-top: 232px;
+    width: 1186px;
+    height: 720px;
+    margin-top: 180px;
     margin-right: auto;
     margin-left: auto;
     background-color: #0e1649;
@@ -10,7 +10,7 @@
 
 .main-container h1 {
     text-align: center;
-    padding-top: 238px;
+    padding-top: 318px;
     font-family: Assistant;
     font-size: 64px;
     font-weight: 800;
@@ -23,32 +23,58 @@
 }
 .logo {
     position: absolute;
-    top : 61px;
-    left : -137px;
+    top : 78px;
+    left : -180px;
 }
 
 .big-polygon {
     position: absolute;
-    top : -75px;
-    right : 166px;
+    top : -81px;
+    right : 188px;
 }
 
 .big-ellipse {
     position: absolute;
-    top : -131px;
-    right: -131px;
-    width: 263px;
-    height: 263px;
+    top : -142px;
+    right: -142px;
+    width: 284px;
+    height: 284px;
     background-color: #ff9f00;
     border-radius: 200px;
 }
 
-.big-rectangle {
-    position: absolute;
-    top: 172px;
-    right: -67px;
-    width: 134px;
-    height: 134px;
+.rectangle {
+    width: 176px;
+    height: 176px;
     background-color: #ff7748;
 
 }
+
+.right-rect{
+    position: absolute;
+    top: 199px;
+    right: -88px;
+}
+
+.left-rect {
+    position: absolute;
+    bottom: -88px;
+    left: -88px;
+    
+}
+    
+.small-polygon {
+    position: absolute;
+    bottom : 155px;
+    left : -65px;
+}
+
+.small-ellipse {
+    position: absolute;
+    bottom : -52px;
+    left: 151px;
+    width: 104px;
+    height: 104px;
+    background-color: #ff9f00;
+    border-radius: 200px;
+}    
